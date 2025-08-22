@@ -1,0 +1,39 @@
+# CODEOWNERS file for storage-library-836
+# Global owners - will be requested for all PRs
+* @Armor-test/squad-search @Armor-test/dept-reporting @Armor-test/team-research
+
+# Directory ownership
+/ui/ @Armor-test/team-governance @Armor-test/unit-design
+/pages/ @Armor-test/grp-payments @Armor-test/dept-ui
+/docs/ @Armor-test/team-governance @Armor-test/unit-devops
+/db/ @Armor-test/dept-test @Armor-test/squad-research @Armor-test/unit-devops
+/lib/ @Armor-test/squad-ux @Armor-test/squad-database
+/core/ @Armor-test/squad-payments @Armor-test/team-security @Armor-test/team-research
+/controllers/ @Armor-test/squad-cloud @Armor-test/squad-mobile
+/plugins/ @Armor-test/squad-tooling @Armor-test/dept-api @Armor-test/squad-payments
+/services/ @Armor-test/team-security @Armor-test/unit-design @Armor-test/squad-reporting
+/pkg/ @Armor-test/dept-ui @Armor-test/team-core
+/modules/ @Armor-test/squad-ml @Armor-test/team-security
+
+# File type ownership
+*.graphql @Armor-test/team-core @Armor-test/squad-payments @Armor-test/squad-api
+*.rs @Armor-test/squad-performance @Armor-test/team-security
+*.sh @Armor-test/team-research @Armor-test/squad-mobile @Armor-test/dept-automation
+*.cs @Armor-test/dept-reporting @Armor-test/squad-tooling
+*.yaml @Armor-test/grp-reporting @Armor-test/team-core @Armor-test/team-reporting
+*.jsx @Armor-test/unit-cloud @Armor-test/squad-search
+*.toml @Armor-test/squad-database @Armor-test/squad-api @Armor-test/grp-api
+*.html @Armor-test/unit-design @Armor-test/squad-cache
+*.yml @Armor-test/squad-product @Armor-test/grp-ui
+*.rb @Armor-test/team-reporting @Armor-test/unit-test
+*.go @Armor-test/dept-identity @Armor-test/squad-payments @Armor-test/team-governance
+*.config @Armor-test/dept-logging @Armor-test/squad-payments
+*.scss @Armor-test/squad-mobile @Armor-test/team-core
+*.properties @Armor-test/unit-test @Armor-test/dept-release
+
+# Security and special files
+/src/**/auth/ @Armor-test/security @Armor-test/auth-team
+/src/**/security/ @Armor-test/security @Armor-test/compliance
+.github/workflows/ @Armor-test/ci-team @Armor-test/devops
+package.json @Armor-test/dependency-team @Armor-test/security
+Jenkinsfile @Armor-test/ci-team @Armor-test/devops
